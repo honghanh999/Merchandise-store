@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "apidoc": "apidoc -i src -o apidoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "file-system": "^2.2.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "apidoc": {
+    "name": "Webservice - NGO THI HONG HANH",
+    "version": "1.0.0",
+    "apidoc": {
+      "title": "Custom apiDoc browser title",
+      "url": "https://api.github.com/v1"
+    },
+    "template": {
+      "forceLanguage": "en",
+      "withCompare": "false"
+    }
+  }
+}
