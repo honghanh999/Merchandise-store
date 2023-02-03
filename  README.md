@@ -16,8 +16,8 @@ http://localhost:3333/apidoc
 # Getting started with Docker
 ```
 # Run
-docker build -t docker-rest-api:1.0.0 .
-docker run -dp 3333:3333 docker-rest-api:1.0.0
+docker build -t webservice-rest-api:1.0.0 .
+docker run -dp 3333:3333 webservice-rest-api:1.0.0
 
 # Open apidoc file
 http://localhost:3333/apidoc
